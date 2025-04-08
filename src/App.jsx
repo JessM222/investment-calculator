@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "./components/header";
+import Header from "./components/Header";
 import InputGroup from "./components/InputGroup";
 import Result from "./components/Result";
 
