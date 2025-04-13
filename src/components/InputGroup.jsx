@@ -26,7 +26,8 @@ export default function InputGroup({ inputs, onChangeInput }) {
             }}
           />
         </p>
-
+      </div>
+      <div className="input-group">
         <p>
           <label>Expected Return </label>
           <input
