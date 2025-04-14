@@ -20,11 +20,11 @@ function App() {
       [nameOfChangedInput]: +newValue,
     }));
 
-    console.log(",,,,,,", newValue);
+  
   }
 
   console.log(currentInputs);
-  console.log("!!!><", typeof currentInputs.initialInvestment);
+
   return (
     <main>
       <Header />

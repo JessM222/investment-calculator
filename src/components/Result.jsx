@@ -12,14 +12,13 @@ export default function Result({ inputs }) {
     duration,
   });
 
-  //   console.log("!!!MMM", annualData[0].interest);
+
   let interest = 0;
   let valueEndOfYear = 0;
   let totalInterest = interest;
   let investedCapital = initialInvestment;
   let finalData = [];
-  console.log("~~~~~~~~!!!!", finalData);
-  //   console.log("!!!MMM", annualData[0].interest);
+
   for (let i = 0; i < duration; i++) {
     interest = annualData[i].interest;
     valueEndOfYear = annualData[i].valueEndOfYear;
@@ -32,7 +31,7 @@ export default function Result({ inputs }) {
       investedCapital: formatter.format(investedCapital),
     });
    
-  } console.log("~~~~~~~~", finalData);
+  } 
 
   return (
     <table id="result">
